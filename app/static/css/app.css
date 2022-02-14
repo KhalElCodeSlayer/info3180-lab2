@@ -1,3 +1,61 @@
 body {
     padding-top: 5rem;
 }
+
+.profile{
+    justify-content: center;
+  }
+  
+  .pheader img{
+    border-radius: 50%;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .pheader{
+    background-color: lightgreen;
+    padding: 5px;
+    margin: 2px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pmain{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .container2{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+    grid-template-areas: "box1" "box2" "box3";
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .box1{
+    grid-area: "box1";
+  }
+  
+  .box2{
+    grid-area: "box2";
+  }
+  
+  .box3{
+    grid-area: "box3";
+  }
+  
+  
+  button{
+    color: white;
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+  }

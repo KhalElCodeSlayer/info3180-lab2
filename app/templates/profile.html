@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class = "profile">
+    <div class = "pheader">
+        <img src = "{{url_for('static', filename = 'profile')}}" alt = "profile pic">
+        <h1>Khalid Williams</h1>
+        <h5>@khalelcodeslayer</h5>
+        <h5>Kingston, Jamaica</h5>
+        <h5>joined {{now}}</h5>
+    </div>
+    <br>
+    <div class = "pmain">
+        <p>I am a 3rd year university student who is studying Computer Science and Management Studies. I have a passion for coding. Contact me if you'd like to work together on a new project.</p>
+        <div class = "container2">
+            <div class = "box1">
+                <span>99</span> <br> <span>posts</span>
+            </div>
+            <div class = "box2">
+                <span>3.5k</span> <br> <span>following</span>
+            </div>
+            <div class = "box3">
+                <span>1.2M</span> <br> <span>followers</span>
+            </div>
+        </div>
+        <button type = "button" id = "follow">Follow</button>
+    </div>
+</div>
+{% endblock %}
